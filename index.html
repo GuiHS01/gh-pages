@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <nav>
+    <div class="container-hor">
+      <a href="/" onclick="active(this)"><span class="logo"></span></a>
+      <a href="#cards" onclick="active(this)">Cards</a>
+      <a href="#buttons" onclick="active(this)">Botões</a>
+    </div>
+  </nav>
+  <section id="cards" class="container">
+    <div class="container-ver">
+      <h1>Cards!</h1>
+    </div>
+    <div class="container-flex">
+      <div class="card-smooth">
+        <div class="titulo">Lorem Ipsum</div>
+        <div class="conteudo container-ver">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </div>
+      </div>
+      <div class="card scroll">
+        <div class="titulo">Quisque</div>
+        <div class="conteudo container-ver">
+          Quisque et dolor ut tortor molestie consectetur.
+        </div>
+      </div>
+      <div class="card-smooth scroll">
+        <div class="titulo">Morbi Nam</div>
+        <div class="conteudo container-ver">
+          Morbi id bibendum felis. Nam quis feugiat risus. Vivamus a condimentum nibh.
+        </div>
+      </div>
+      <div class="card scroll">
+        <div class="titulo">Integer Sed Aliquam</div>
+        <div class="conteudo container-ver">
+          Integer sed semper tellus. Sed facilisis porttitor purus, id lacinia nulla pellentesque nec. Aliquam vitae
+          volutpat massa. Cras ac condimentum lectus, ac posuere risus.
+        </div>
+      </div>
+      <div class="card-smooth scroll">
+        <div class="titulo">Aenean Donec</div>
+        <div class="conteudo container-ver">
+          Duis bibendum auctor sapien, elementum sodales purus porttitor eget. Aenean ullamcorper erat in ligula viverra
+          consectetur. Donec varius nunc nec semper fermentum.
+        </div>
+      </div>
+      <div class="card scroll">
+        <div class="titulo">Fusce Sed</div>
+        <div class="conteudo container-ver">
+          Fusce tristique tincidunt diam, id lacinia magna venenatis eu. Sed a tincidunt erat. Ut nulla augue, varius id
+          enim sed, malesuada tristique lacus
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="buttons" class="container">
+    <div class="container-ver">
+      <h1>Botões!</h1>
+    </div>
+    <div class="container-ver">
+      <p class="title">Botões padrão</p>
+      <div class="container-flex">
+        <button class="btn flat">Padrão (default)</button>
+        <button class="btn btn-default">Default</button>
+        <button class="btn btn-primary">Primary</button>
+        <button class="btn btn-secondary">Secondary</button>
+        <button class="btn btn-alert">Alert</button>
+        <button class="btn btn-success">Success</button>
+        <button class="btn btn-danger">Danger</button>
+      </div>
+    </div>
+    <br>
+    <div class="container-ver">
+      <p class="title">Botões arredondados</p>
+      <div class="container-flex">
+        <button class="btn rounded">Padrão (default)</button>
+        <button class="btn btn-default rounded">Default</button>
+        <button class="btn btn-primary rounded">Primary</button>
+        <button class="btn btn-secondary rounded">Secondary</button>
+        <button class="btn btn-alert rounded">Alert</button>
+        <button class="btn btn-success rounded">Success</button>
+        <button class="btn btn-danger rounded flat">Danger</button>
+      </div>
+    </div>
+    <br>
+    <div class="container-ver">
+      <p class="title">Botões contornados</p>
+      <div class="container-flex">
+        <button class="btn outlined">Padrão (default)</button>
+        <button class="btn outlined-default flat">Default</button>
+        <button class="btn outlined-primary">Primary</button>
+        <button class="btn outlined-secondary">Secondary</button>
+        <button class="btn outlined-alert">Alert</button>
+        <button class="btn outlined-success">Success</button>
+        <button class="btn outlined-danger">Danger</button>
+      </div>
+      <div class="container-flex">
+        <button class="btn outlined rounded">Padrão (default)</button>
+        <button class="btn outlined-default rounded">Default</button>
+        <button class="btn outlined-primary rounded">Primary</button>
+        <button class="btn outlined-secondary rounded">Secondary</button>
+        <button class="btn outlined-alert rounded flat">Alert</button>
+        <button class="btn outlined-success rounded">Success</button>
+        <button class="btn outlined-danger rounded">Danger</button>
+      </div>
+    </div>
+    <br>
+    <div class="container-ver">
+      <p class="title">Botão com gradiente</p>
+      <div class="container-flex">
+        <button class="btn btn-grad">Gradiente</button>
+        <button class="btn btn-grad flat">Gradiente</button>
+        <button class="btn btn-grad rounded">Gradiente</button>
+      </div>
+    </div>
+  </section>
+  <script>
+    const active = (element) => {
+      let lastActiveEl = document.querySelectorAll(".active");
+      lastActiveEl.forEach(el => el.classList.remove("active"))
+      element.classList.add("active");
+    };
+  </script>
+</body>
+
+</html>

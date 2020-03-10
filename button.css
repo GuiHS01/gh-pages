@@ -1,0 +1,174 @@
+.btn {
+  border: none;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: var(--text-mid);
+  cursor: pointer;
+  transition: all .9s;
+  margin: 5px;
+}
+
+.flat {
+  flex: 1 1 auto;
+}
+
+.rounded {
+  border-radius: 5px;
+}
+
+.outlined {
+  border: 2px solid currentColor;
+  background-color: white;
+  color: black;
+  transition: ease .9s;
+}
+
+.btn-default {
+  background-color: var(--default);
+  color: white;
+}
+
+.btn-default:hover {
+  background-color: var(--default-hover);
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-hover);
+}
+
+.btn-secondary {
+  background-color: var(--secondary);
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: var(--secondary-hover);
+}
+
+.btn-alert {
+  background-color: var(--alert);
+  color: white;
+}
+
+.btn-alert:hover {
+  background-color: var(--alert-hover);
+}
+
+.btn-success {
+  background-color: var(--success);
+  color: white;
+}
+
+.btn-success:hover {
+  background-color: var(--success-hover);
+}
+
+.btn-danger {
+  background-color: var(--danger);
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: var(--danger-hover);
+}
+
+.outlined:hover {
+  background-color: var(--default-hover);
+  color: white;
+  border: 2px solid var(--default-hover);
+}
+
+.outlined-default {
+  border: 2px solid var(--default);
+  background-color: white;
+  color: black;
+  transition: ease .9s;
+}
+
+.outlined-default:hover {
+  background-color: var(--default-hover);
+  color: white;
+  border: 2px solid var(--default-hover);
+}
+
+.outlined-primary {
+  border: 2px solid var(--primary);
+  background-color: white;
+  color: black;
+  transition: ease .9s;
+}
+
+.outlined-primary:hover {
+  background-color: var(--primary-hover);
+  color: white;
+  border: 2px solid var(--primary-hover);
+}
+
+.outlined-secondary {
+  border: 2px solid var(--secondary);
+  background-color: white;
+  color: black;
+  transition: ease .9s;
+}
+
+.outlined-secondary:hover {
+  background-color: var(--secondary-hover);
+  color: white;
+  border: 2px solid var(--secondary-hover);
+}
+
+.outlined-alert {
+  border: 2px solid var(--alert);
+  background-color: white;
+  color: black;
+  transition: ease .9s;
+}
+
+.outlined-alert:hover {
+  background-color: var(--alert-hover);
+  color: white;
+  border: 2px solid var(--alert-hover);
+}
+
+.outlined-success {
+  border: 2px solid var(--success);
+  background-color: white;
+  color: black;
+  transition: ease .9s;
+}
+
+.outlined-success:hover {
+  background-color: var(--success-hover);
+  color: white;
+  border: 2px solid var(--success-hover);
+}
+
+.outlined-danger {
+  border: 2px solid var(--danger);
+  background-color: white;
+  color: black;
+  transition: ease .9s;
+}
+
+.outlined-danger:hover {
+  background-color: var(--danger-hover);
+  color: white;
+  border: 2px solid var(--danger-hover);
+}
+
+.btn-grad {
+  background-image: linear-gradient(to left, #4776E6 0%, #4776E6 51%, #8E54E9 100%);
+  transition: ease .9s;
+  color: white;
+}
+
+.btn-grad:hover {
+  background-image: linear-gradient(to left, #8E54E9 0%, #4776E6 51%, #4776E6 100%);
+}

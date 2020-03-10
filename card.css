@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab&display=swap');
+
+.card {
+  display: inline-block;
+  margin: 10px;
+  border: 1px solid #eee;
+  box-shadow: 2px 2px 2px #ccc;
+  padding: 5px;
+  transition: all 500ms;
+
+  min-width: 100px;
+  max-width: 200px;
+  min-height: 100px;
+  max-height: 200px;
+
+  overflow: auto;
+}
+
+.card:hover {
+  border-radius: 0 5px 5px 5px;
+  border: 1px solid #979797;
+  box-shadow: 2px 2px #000;
+}
+
+.card>.titulo {
+  font-size: 25px;
+  color: #0f0f0f;
+  font-weight: 700;
+  font-family: 'Roboto Slab', serif;
+}
+
+.card>.conteudo {
+  font-size: 20px;
+  color: #1f1f1f;
+  text-align: justify;
+  margin: auto;
+  font-weight: 100;
+  font-size-adjust: 10;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card-smooth {
+  display: inline-block;
+  margin: 10px;
+  border: 1px solid #dfdfdf;
+  box-shadow: 3px 3px 3px #858585;
+  padding: 5px;
+  transition: all .9s;
+
+  min-width: 100px;
+  max-width: 200px;
+  min-height: 100px;
+  max-height: 200px;
+
+  overflow: auto;
+}
+
+.card-smooth:hover {
+  border: 1px solid #979797;
+  box-shadow: 4px 4px 5px #303030;
+}
+
+.card-smooth>.titulo {
+  font-size: 25px;
+  color: #0f0f0f;
+  font-weight: 700;
+  font-family: 'Roboto Slab', serif;
+}
+
+.card-smooth>.conteudo {
+  font-size: 20px;
+  color: #1f1f1f;
+  text-align: justify;
+  margin: auto;
+  font-weight: 100;
+  font-size-adjust: 10;
+  font-family: 'Roboto', sans-serif;
+}

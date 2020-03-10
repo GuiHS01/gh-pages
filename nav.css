@@ -1,0 +1,39 @@
+nav {
+  background: #020024;
+  background: linear-gradient(313deg, #020024 0%, #650979 0%, #0586a1 100%);
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: all 0.9s;
+}
+
+nav a:hover {
+  background-color: #18253b;
+  color: #fbfbfb;
+  border-radius: 2px;
+  text-decoration: underline;
+}
+
+nav a.active {
+  background-color: #2f0538;
+  color: white;
+  border-radius: 2px;
+  text-decoration: underline;
+}
+
+nav a:first-child {
+  padding: 5px;
+  height: 100%;
+}
+
+.logo {
+  content: var(--titulo);
+  height: 3.3vh;
+}

@@ -1,0 +1,31 @@
+:root {
+  --titulo: url("https://via.placeholder.com/150x50.png?text=Logo");
+
+
+  /* cores */
+  --default: #7e7e7e;
+  --default-hover: #666565;
+
+  --primary: #0a8fc4;
+  --primary-hover: #06729c;
+
+  --secondary: #035474;
+  --secondary-hover: #04445e;
+
+  --alert: #dad60e;
+  --alert-hover: #adaf19;
+
+  --success: #3aa011;
+  --success-hover: #30850e;
+
+  --danger: #c51f1f;
+  --danger-hover: #a51414;
+
+
+  /* font-size: ; */
+  --text-x-small: 10px;
+  --text-small: 12px;
+  --text-mid: 16px;
+  --text-large: 20px;
+  --text-x-large: 24px;
+}
